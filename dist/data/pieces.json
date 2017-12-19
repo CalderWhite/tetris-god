@@ -1,0 +1,56 @@
+{
+    "square" : {
+        "states" : [
+            [[true,true],[true,true]]
+        ],
+        "color": [255,0,0]
+    },
+    "line" : {
+        "states": [
+            [[true],[true],[true],[true]],
+            [[false,false,false,false],[true,true,true,true],[false,false,false,false],[false,false,false,false]]
+        ],
+        "color": [255, 102, 0]
+    },
+    "s" : {
+        "states": [
+            [[true,true,false],[false,true,true]],
+            [[false,true],[true,true],[true,false]]
+        ],
+        "color" : [51, 204, 255]
+    },
+    "s-reverse" : {
+        "states": [
+            [[false,true,true],[true,true,false]],
+            [[true,false],[true,true],[false,true]]
+        ],
+        "color": [51, 204, 51]
+    },
+    "t" : {
+        "states":[
+            [[true,false],[true,true],[true,false]],
+            [[false,true,false],[true,true,true],[false,false,false]],
+            [[false,true],[true,true],[false,true]],
+            [[false,false,false],[true,true,true],[false,true,false]]
+        ],
+        "color": [255, 255, 51]
+    },
+    "l" : {
+        "states":[
+            [[true,true],[true,false],[true,false]],
+            [[true,false,false],[true,true,true],[false,false,false]],
+            [[false,true],[false,true],[true,true]],
+            [[false,false,false],[true,true,true],[false,false,true]]
+        ],
+        "color": [0, 0, 204]
+    },
+    "l-reverse" : {
+        "states":[
+            [[true,true],[false,true],[false,true]],
+            [[false,false,false],[true,true,true],[true,false,false]],
+            [[true,false],[true,false],[true,true]],
+            [[false,false,true],[true,true,true],[false,false,false]]
+        ],
+        "color": [153, 51, 153]
+    }
+}
