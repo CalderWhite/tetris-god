@@ -22,7 +22,7 @@ const windowConstants = {
         widthRatio:0.65,
         heightRatio:0.95
     }
-}
+};
 // create a new instance of the game with the settings and in-window settings, and then run it
 function run(){
     // keep the width height ratio.
@@ -34,7 +34,7 @@ function run(){
         settings.canvas.height = window.innerHeight*windowConstants.canvas.heightRatio;
         settings.canvas.width = settings.canvas.height*windowConstants.canvas.widthRatio;
     }
-    let game = new Game(settings,(game)=>{game.run()});
+    new Game(settings,(game)=>{game.run()});
 }
 // run on window load
 $(document).ready(run);
