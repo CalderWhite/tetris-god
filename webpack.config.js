@@ -20,5 +20,6 @@ module.exports = {
     },
     plugins : [
         new UglifyJsPlugin()
-    ]
+    ],
+    cache:true
 };
